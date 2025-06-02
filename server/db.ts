@@ -10,9 +10,9 @@ const pg = await import('pg');
 const Pool = pg.default.Pool;
 
 export const pool = new Pool({
-  connectionString: 'postgresql://topshopseo_user:Eu49yj9WlHD5nGzOTwQsq7PDfyz7otF4@dpg-d0dfunqdbo4c738gmsrg-a.oregon-postgres.render.com/topshopseo',
+  connectionString: 'postgresql://TopshopSEO_owner:npg_13IeQPZvxTnR@ep-solitary-flower-a8ek2vi0-pooler.eastus2.azure.neon.tech/TopshopSEO?sslmode=require',
   ssl: {
-    rejectUnauthorized: false, // Required for Render's external DB
+    rejectUnauthorized: false, // Important for Neon.tech SSL
   },
   max: 5,
   idleTimeoutMillis: 10000,
