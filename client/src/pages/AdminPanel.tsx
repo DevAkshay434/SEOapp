@@ -3481,7 +3481,7 @@ export default function AdminPanel() {
                     </div>
                     
                     {/* Template Controls */}
-                    <div className="mt-6 grid grid-cols-2 gap-3">
+                    <div className="mt-6 grid grid-cols-2 gap-3 hidden">
                       <Button 
                         type="button" 
                         variant="outline"
